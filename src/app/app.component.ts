@@ -7,7 +7,7 @@ import { increment, decrement, reset } from './actions/counter.actions';
 @Component({
   selector: 'app-root',
   template: `
-    <h1>Current Count: {{ count }}</h1>
+    <h1>Current Count$: {{ count }}</h1>
     <button (click)="onIncrement()">Increment</button>
     <button (click)="onDecrement()">Decrement</button>
     <button (click)="onReset()">Reset</button>
